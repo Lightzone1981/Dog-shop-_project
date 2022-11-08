@@ -1,0 +1,34 @@
+.care {
+  padding: 1rem 0 1rem 0;
+}
+
+.care__container {
+  display: flex;
+  align-items: center;
+}
+
+.care__img {
+  width: 50%;
+}
+
+.care__subtitle {
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--color-1);
+  margin-bottom: 0.8rem;
+}
+
+.care__title {
+  line-height: 1.2em;
+  margin-bottom: 1.5rem;
+}
+
+.care__description {
+  margin-bottom: 2rem;
+}
+
+.care__main-button {
+  margin-right: 1rem;
+}

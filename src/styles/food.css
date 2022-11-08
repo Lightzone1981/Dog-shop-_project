@@ -1,0 +1,37 @@
+.food {
+  padding: 8rem 0;
+}
+
+.food__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.food__card {
+  width: 31%;
+  padding: 0 2%;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.food__card:nth-child(2) {
+  border: none;
+  box-shadow: 0 0.2rem 1.5rem var(--color-3);
+}
+
+.food__card-img {
+  position: relative;
+  top: -2rem;
+}
+.food__card-title {
+  position: relative;
+  top: -1.5rem;
+  font-size: 1.56rem;
+  line-height: 1.5em;
+}
+
+.food__card-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}

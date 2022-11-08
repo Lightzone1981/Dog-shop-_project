@@ -1,0 +1,33 @@
+.subscription {
+  padding: 2rem 0;
+}
+
+.subscription__container {
+  text-align: center;
+}
+
+.subscription__title {
+  line-height: 1.2em;
+}
+
+.subscription__card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.subscription__card {
+  width: 30%;
+}
+
+.subscription__img {
+  width: 100%;
+}
+
+.subscription__card-title {
+  margin: 1rem;
+}
+
+.subscription__card-description {
+  margin-bottom: 1rem;
+}

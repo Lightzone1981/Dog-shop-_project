@@ -1,0 +1,95 @@
+body {
+  background-color: #fff;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+.main-container {
+  margin: 0% auto;
+  padding: 0 0.9375rem;
+  max-width: 73.125rem;
+}
+
+.banner__back-image {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  border-bottom: calc(36vw + 1rem) solid var(--color-3);
+  border-left: 12vw solid transparent;
+  border-right: 0 solid transparent;
+  height: 0;
+  width: 33vw;
+}
+
+h1 {
+  font-family: var(--font-view1);
+}
+
+h2 {
+  font: 2.25rem var(--font-view1);
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
+h3 {
+  font: 1.25rem var(--font-view1);
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
+p {
+  font: 1rem var(--font-view2);
+  line-height: 1.5em;
+}
+
+.details-link {
+  font: 1rem var(--font-view1);
+  text-decoration: none;
+  color: var(--color-1);
+}
+
+.details-link:hover {
+  color: var(--color-4);
+}
+
+.details-button {
+  transition: 0.1s;
+  padding: 0.8rem 2rem;
+
+  border-radius: 1.5rem;
+  border: 1px solid var(--color-3);
+  background-color: #fff;
+  font-family: var(--font-view2);
+  font-size: 1rem;
+  color: var(--color-1);
+}
+
+.details-button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  border: 1px solid var(--color-4);
+  color: var(--color-4);
+  transition: 0.2s;
+}
+
+.main-button {
+  transition: 0.1s;
+  padding: 0.8rem 2rem;
+  border-radius: 1.5rem;
+  background-color: var(--color-1);
+  font-family: var(--font-view2);
+  font-size: 1rem;
+  color: #fff;
+}
+
+.main-button:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: var(--color-4);
+}

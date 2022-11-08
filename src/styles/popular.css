@@ -1,0 +1,51 @@
+.popular {
+  padding: 1rem 0 3rem 0;
+}
+
+.popular__container {
+  text-align: center;
+}
+
+.popular__title {
+  font-size: 2rem;
+}
+
+.popular__subtitle {
+  max-width: 50%;
+  margin: 1rem auto 3rem auto;
+}
+
+.popular__card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.popular__card {
+  width: 49%;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.popular__card:nth-child(n + 3) {
+  width: 32%;
+}
+
+.popular__card-img {
+  width: 100%;
+  border-radius: 3%;
+}
+
+.popular__card-title {
+  font-size: 1.56rem;
+  margin: 1.2rem 0 0.5rem 0;
+}
+
+.popular__card:nth-child(n + 3) .popular__card-title {
+  font-size: 1.25rem;
+}
+
+.popular__all-products {
+  padding: 0.9rem 1.7rem;
+  border: 1px solid var(--color-3);
+  border-radius: 0.5rem;
+}

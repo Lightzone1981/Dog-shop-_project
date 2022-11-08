@@ -1,0 +1,259 @@
+@media (max-width: 70em) {
+  /* styles for banner section */
+  .banner__title {
+    font-size: 4rem;
+  }
+
+  /* styles for message section */
+  .message__background {
+    height: 23rem;
+  }
+
+  .message__form {
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+
+  .message_text-container {
+    width: 80%;
+    text-align: center;
+  }
+
+  .message__text {
+    padding-bottom: 1rem;
+  }
+
+  .message__input {
+    width: 80%;
+  }
+}
+
+@media (max-width: 47.9em) {
+  .banner__back-image {
+    border-bottom: calc(130vw + 1rem) solid var(--color-3);
+    border-left: 28vw solid transparent;
+    border-right: 0 solid transparent;
+    width: 50vw;
+  }
+
+  /* styles for header section */
+  .header__nav {
+    display: none;
+  }
+
+  .header__button-container {
+    min-width: 30%;
+  }
+
+  /* styles for banner section */
+  .banner__container {
+    flex-direction: column;
+  }
+
+  .banner__info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner__title {
+    margin: 5% 0;
+    font-size: 9vw;
+  }
+
+  .banner__image {
+    max-width: 100%;
+  }
+
+  /* styles for food section */
+  .food {
+    padding: 1rem 0;
+  }
+
+  .food__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .food__card {
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  /* styles for popular section */
+  .popular {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .popular__card-container {
+    flex-wrap: none;
+    flex-direction: column;
+  }
+
+  .popular__card-title {
+    font-size: 1.56rem;
+    margin: 0;
+  }
+
+  .popular__subtitle {
+    max-width: 80%;
+    margin: 0.5rem auto 1rem auto;
+  }
+
+  .popular__card:nth-child(n) {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .popular__card:last-child {
+    margin-bottom: 2rem;
+  }
+
+  /* styles for care section */
+
+  .care {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .care__container {
+    flex-direction: column;
+  }
+
+  .care__img {
+    width: 80%;
+  }
+
+  .care-container {
+    text-align: center;
+  }
+
+  .care__description {
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  .care__main-button,
+  .care__details-button {
+    display: block;
+    width: 70%;
+    margin: 1rem auto;
+  }
+
+  /* styles for subscription section */
+  .subscription {
+    padding: 1rem 0;
+  }
+  .subscription__card-container {
+    flex-direction: column;
+    padding: 2rem 0 0 0;
+  }
+
+  .subscription__card {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .subscription__card-title {
+    margin-top: 1rem 0 2rem 0;
+  }
+
+  .subscription__img {
+    width: 70%;
+  }
+
+  .gallery__main-image {
+    display: none;
+  }
+
+  .gallery__preview-container {
+    width: 100%;
+  }
+
+  /* styles for feedback section */
+
+  .feedback {
+    padding: 1rem 0;
+  }
+
+  .feedback__cards-container {
+    padding: 1rem 0 3rem 0;
+  }
+
+  .feedback__card {
+    width: 90%;
+  }
+
+  .feedback__up-button {
+    bottom: 0;
+    right: 45%;
+    transform: rotate(90deg);
+  }
+
+  .feedback__down-button {
+    bottom: 0;
+    right: 55%;
+    transform: rotate(90deg);
+  }
+
+  /* styles for message section */
+  .message__background {
+    height: 23rem;
+  }
+
+  .message__form {
+    padding: 3rem 0;
+  }
+
+  .message__text-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .message__input input[type="text"] {
+    padding: 1rem 1rem;
+  }
+
+  .message__input {
+    width: 100%;
+  }
+
+  /* styles for footer section */
+  .footer {
+    padding: 6rem 0 0 0;
+  }
+
+  .footer__decor {
+    border-left: 30vw solid transparent;
+    border-right: 30vw solid transparent;
+  }
+
+  .footer__bar {
+    padding-bottom: 2rem;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__left-panel {
+    order: 1;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+  }
+
+  .footer__right-panel {
+    width: 100%;
+    align-items: center;
+    padding: 0;
+  }
+
+  .footer__central-panel {
+    width: 100%;
+  }
+
+  .footer__link {
+    line-height: 2.5rem;
+    color: #fff;
+  }
+}

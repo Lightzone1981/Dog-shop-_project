@@ -1,0 +1,22 @@
+.banner__container {
+  display: flex;
+}
+
+.banner__info {
+  width: 50%;
+  padding-bottom: 2rem;
+}
+
+.banner__title {
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 25% 0 5% 0;
+}
+
+.banner__image {
+  max-width: 50%;
+}
+
+.banner__main-button {
+  margin-right: 1rem;
+}

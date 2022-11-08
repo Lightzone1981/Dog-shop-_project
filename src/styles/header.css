@@ -1,0 +1,41 @@
+.header {
+  padding-top: 2rem;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.header__nav-item {
+  margin: 0 4%;
+  text-decoration: none;
+  font-family: var(--font-view1);
+  color: var(--color-2);
+}
+
+.header__nav-item:hover {
+  color: var(--color-4);
+}
+
+.header__button-container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 15%;
+}
+
+.header__button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header__button:hover .header__button-img {
+  opacity: 0.3;
+}

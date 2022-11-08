@@ -1,0 +1,42 @@
+.gallery {
+  padding: 1rem 0 6% 0;
+}
+
+.gallery__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery__preview-container {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  justify-content: space-between;
+}
+
+.gallery__header {
+  text-align: center;
+}
+
+.gallery__description {
+  padding-top: 1rem;
+}
+
+.gallery__image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery__preview-image {
+  width: 47%;
+  margin-top: 6%;
+  border-radius: 0.31rem;
+}
+
+.gallery__main-image {
+  width: 49%;
+  border-radius: 0.62rem;
+  background: no-repeat center url("../images/product-10.png");
+  background-size: cover;
+}
